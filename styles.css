@@ -52,6 +52,17 @@ a.contact:hover{
 a.contact:visited{
     color: #4b4b4b;
 }
+
+a.project-link:link {
+    color: black;
+    text-decoration: underline;
+}
+a.project-link:hover{
+    color: orangered;
+}
+a.project-link:visited{
+    color: black;
+}
 .content{
     display: grid;
     grid-area: content;
