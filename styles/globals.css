@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+
+
+@layer base {
+  html {
+    @apply text-surface;
+    @apply bg-white;
+  }
+  html.dark {
+    @apply text-neutral-50;
+    @apply bg-body-dark;
+  }
+}
+
+p {
+  @apply leading-[1.6];
+}
+Link.active {
+  color: #961699;
+  font-weight: bold;
+}
+.active {
+  color: #961699;
+  font-weight: bold;
+}
