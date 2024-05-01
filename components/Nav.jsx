@@ -5,6 +5,7 @@ import '@/styles/globals.css'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useRouter } from 'next/navigation'
+import { useState } from 'react'
 import { useSelectedLayoutSegment } from 'next/navigation';
 
 const Nav = () => {
@@ -17,12 +18,14 @@ const Nav = () => {
         // return router.pathname === href
         return pathname === href
       };
+      const [toggleDropdown, settoggleDropdown] = useState(false)
   return (
     <nav className='relative bg-white shadow dark:bg-gray-800'>
+        <div className='sm:flex hidden'>
         <div className='container px-6 py-4 mx-auto md:flex md:justify-between md:items-center'>
             <div className='flex items-center justify-between'>
             {/* <Image
-                src={'/assets/images/profile.jpg'}
+                src={'/assets/icons/profile.jpg'}
                 width={20}
                 height={20}
                 className="object-cover w-20 h-20 rounded-full"
@@ -39,7 +42,28 @@ const Nav = () => {
                 </div>
             </div>
         </div>
+        </div>
+        {/* Mobile Nav */}
+        <div className='sm:hidden flex relative'>
+            <Image src='assets/icons/menu.svg'
+                width={30}
+                height={30}
+                onClick={() => settoggleDropdown((prev) => !prev)}
+                    
+            />
+            
+            {toggleDropdown && (
+                <div className='bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700'>
+                    <Link href={'/about'} className={'block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'}>About</Link>
+                    <Link href={'/resume'} className={'block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'}>Experience</Link>
+                    <Link href={'/projects'} className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>Projects</Link>
+                    <Link href={'/certs'} className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>Certifications</Link>
+                    <Link href={'/contact'} className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>Contact</Link>
+                </div>
+            )}            
 
+        </div>
+        
     </nav>
   )
 }
