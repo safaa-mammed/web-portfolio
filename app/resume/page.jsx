@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Resume = () => {
   return (
     <div><h1 className='block mt-4 text-3xl font-semibold text-gray-800 dark:text-white text-center'>Experience</h1>
-        <div className="w-5/6 container bg-white mx-auto flex h-screen">
+        <div className="container bg-white mx-auto flex h-screen">
 
             <div className="relative mt-5 text-left">
                 
@@ -36,9 +36,9 @@ const Resume = () => {
                         </div>
                         <div className="mb-10">
                           <ul className='list-disc mx-5'>
-                            <li>Fusce auctor gravida dui, ut tristique nisi aliquam quis. Maecenas id ligula ac dui mollis tempor. Sed vitae ex eros. Proin nisl felis, consectetur sed elit sed, vestibulum ultrices nibh</li>
-                            <li>Fusce auctor gravida dui, ut tristique nisi aliquam quis. Maecenas id ligula ac dui mollis tempor. Sed vitae ex eros. Proin nisl felis, consectetur sed elit sed, vestibulum ultrices nibh</li>
-                            <li>Fusce auctor gravida dui, ut tristique nisi aliquam quis. Maecenas id ligula ac dui mollis tempor. Sed vitae ex eros. Proin nisl felis, consectetur sed elit sed, vestibulum ultrices nibh</li>
+                            <li>Contribute to the coding and maintenance of Angular & Laravel elements using JavaScript & PHP code</li>
+                            <li>Collaborated with development team to create appealing and responsive layouts</li>
+                            <li>Work closely with senior developers to develop and debug system codes.</li>
                           </ul>
                         </div>
                     </div>
@@ -72,9 +72,9 @@ const Resume = () => {
                         </div>
                         <div className="mb-10">
                           <ul className='list-disc mx-5'>
-                            <li>Fusce auctor gravida dui, ut tristique nisi aliquam quis. Maecenas id ligula ac dui mollis tempor. Sed vitae ex eros. Proin nisl felis, consectetur sed elit sed, vestibulum ultrices nibh</li>
-                            <li>Fusce auctor gravida dui, ut tristique nisi aliquam quis. Maecenas id ligula ac dui mollis tempor. Sed vitae ex eros. Proin nisl felis, consectetur sed elit sed, vestibulum ultrices nibh</li>
-                            <li>Fusce auctor gravida dui, ut tristique nisi aliquam quis. Maecenas id ligula ac dui mollis tempor. Sed vitae ex eros. Proin nisl felis, consectetur sed elit sed, vestibulum ultrices nibh</li>
+                            <li>Manage social media presence and content production.</li>
+                            <li>Provided marketing advise and solutions, working closely with the founders</li>
+                            <li>Promoted content through social media pages such as Facebook Instagram, Google</li>
                           </ul>
                         </div>
                         </div>
@@ -111,9 +111,9 @@ const Resume = () => {
                         </div>
                         <div className="mb-10">
                           <ul className='list-disc mx-5'>
-                            <li>Fusce auctor gravida dui, ut tristique nisi aliquam quis. Maecenas id ligula ac dui mollis tempor. Sed vitae ex eros. Proin nisl felis, consectetur sed elit sed, vestibulum ultrices nibh</li>
-                            <li>Fusce auctor gravida dui, ut tristique nisi aliquam quis. Maecenas id ligula ac dui mollis tempor. Sed vitae ex eros. Proin nisl felis, consectetur sed elit sed, vestibulum ultrices nibh</li>
-                            <li>Fusce auctor gravida dui, ut tristique nisi aliquam quis. Maecenas id ligula ac dui mollis tempor. Sed vitae ex eros. Proin nisl felis, consectetur sed elit sed, vestibulum ultrices nibh</li>
+                            <li>Perform research on given companies to extract and update their information with accuracy.</li>
+                            <li>Perform transcription of invoices used to train AI.</li>
+                            <li>Earned Top 3 HITer (ISAHIT worker) for 2 months.</li>
                           </ul>
                         </div>
                       </div>

@@ -11,13 +11,16 @@ import nextjs from '../public/assets/icons/nextjs.svg'
 import tailwindcss from '../public/assets/icons/tailwindcss.svg'
 import amplify from '../public/assets/icons/amplify.svg'
 import php from '../public/assets/icons/php.svg'
+import xampp from '../public/assets/icons/xampp.svg'
+import android from '../public/assets/icons/android.svg'
+import java from '../public/assets/icons/java.svg'
 
 const ProjectsCard = ({title, desc, type, tech, link}) => {
   return (
-    <div className="w-full max-w-sm max-h-min overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    <div className="w-full max-w-sm max-h-min overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 hover:bg-color transition duration-300 ease-in-out hover:scale-105">
     <Image className="object-cover object-center w-full h-56" width={150} height={150} src="/assets/images/placeholder.jpg" alt="avatar"/>
 
-    <div className="flex items-center px-6 py-3 bg-gray-900">
+    <div className="flex items-center px-6 py-3 bg-gray-900 ">
         {/* <svg aria-label="headphones icon" className="w-6 h-6 text-white fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M17 21C15.8954 21 15 20.1046 15 19V15C15 13.8954 15.8954 13 17 13H19V12C19 8.13401 15.866 5 12 5C8.13401 5 5 8.13401 5 12V13H7C8.10457 13 9 13.8954 9 15V19C9 20.1046 8.10457 21 7 21H3V12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12V21H17ZM19 15H17V19H19V15ZM7 15H5V19H7V15Z"/>
         </svg> */}
@@ -84,16 +87,6 @@ const ProjectsCard = ({title, desc, type, tech, link}) => {
             title='Laravel Framework'
             />
         }
-         { tech.includes('android') && 
-            <Image
-            priority
-            src={cloud}
-            alt=''
-            width={50}
-            height={50}
-            title='Android Studio'
-            />
-        }
          { tech.includes('nextjs') && 
             <Image
             priority
@@ -135,6 +128,38 @@ const ProjectsCard = ({title, desc, type, tech, link}) => {
             width={50}
             height={50}
             title='PHP'
+            />
+        }
+         { tech.includes('xampp') && 
+            <Image
+            priority
+            src={xampp}
+            style={{padding: '5px'}}
+            alt=''
+            width={50}
+            height={50}
+            title='XAMPP'
+            />
+        }
+        { tech.includes('android') && 
+            <Image
+            priority
+            src={android}
+            style={{padding: '10px'}}
+            alt=''
+            width={50}
+            height={50}
+            title='Android Studio'
+            />
+        }
+        { tech.includes('java') && 
+            <Image
+            priority
+            src={java}
+            alt=''
+            width={50}
+            height={50}
+            title='Java'
             />
         }
     </div>

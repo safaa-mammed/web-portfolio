@@ -15,7 +15,11 @@ module.exports = {
         caveat: ['Caveat', 'cursive'],
       },
       colors: {
-        'primary-orange': '#FF5722',
+        'color1': '#DD4470',
+        'color2': '#FE72A9',
+        'color3' : '#FFC872',
+        'color4' : '#FCE4BF',
+        'color5' : '#faecd7',
       }
     },
   },

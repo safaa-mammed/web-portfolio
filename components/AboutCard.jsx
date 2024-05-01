@@ -21,12 +21,12 @@ const AboutCard = ({title, description, side, handleClick }) => {
   return (
     <div className={` ${classDesc}`}>
     <div className="order-1 w-5/12"></div>
-      <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-        <h1 className="mx-auto font-semibold text-lg text-white">O</h1>
+      <div className="z-20 flex items-center order-1 bg-color3 shadow-xl w-8 h-8 rounded-full">
+        <h1 className="mx-auto font-semibold text-lg text-white"></h1>
       </div>
-      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 className="mb-3 font-bold text-gray-800 text-xl">{title}</h3>
-        <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">{description} </p>
+      <div className="order-1 bg-color1 border border-color2 rounded-lg shadow-xl w-5/12 px-6 py-4">
+        <h3 className="mb-3 font-bold text-white text-xl ">{title}</h3>
+        <p className="text-sm leading-snug text-justify tracking-wide text-white text-opacity-100">{description} </p>
         {handleClick && (
             <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 cursor-pointer hover:underline" onClick={handleShow}>See more...</p>
         )}

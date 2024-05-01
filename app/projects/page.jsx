@@ -22,24 +22,24 @@ export default function Projects() {
         link={'link'}
       />
       <ProjectsCard
-        title={"University Student Registry"}
+        title={"SAU Student Registry"}
         type={'API'}
-        desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '}
+        desc={'The South of Australia Student Registry is a RESTful API used by university staff to conduct student operations such as register, display, modify, delete. As well as batch operations by importing CSV files. This API uses Laravel Passport to authenticate and authorize each university staff to use the API.'}
         tech={'laravel'}
         link={'link'}
       />
        <ProjectsCard
         title={'Hospital Mobile Application'}
         type={'healthcare'}
-        desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '}
-        tech={'tech'}
+        desc={'An android application for KPJ Hospital to view information on KPJ doctors, vaccines, and to book vaccination appointments '}
+        tech={'android, java'}
         link={'link'}
       />
        <ProjectsCard
         title={'Online Bank System'}
         type={'bank'}
-        desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '}
-        tech={'tech'}
+        desc={'World Bank is an online banking system that allows customers to transfer funds, pay bills, track their accounts/cards and print their bank statements. '}
+        tech={'php, xampp'}
         link={'link'}
       />      
     </div>

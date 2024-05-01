@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const About = () => {
   return (
-    <div><h1 className='block mt-4 text-3xl font-semibold text-gray-800 dark:text-white text-center'>Get to know more about me!</h1>
+    <div className=''><h1 className='block mt-4 text-3xl font-semibold text-gray-800 dark:text-white text-center'>Get to know more about me!</h1>
     <div className="container bg-white mx-auto flex h-screen">
     <div className="relative wrap overflow-hidden p-10 m-auto">
     <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style={{left: '50%'}}></div>
