@@ -14,11 +14,28 @@ import php from '../public/assets/icons/php.svg'
 import xampp from '../public/assets/icons/xampp.svg'
 import android from '../public/assets/icons/android.svg'
 import java from '../public/assets/icons/java.svg'
+import sql from '../public/assets/icons/sql.svg'
 
-const ProjectsCard = ({title, desc, type, tech, link}) => {
+const ProjectsCard = ({img,title, desc, type, tech, link}) => {
   return (
-    <div className="w-full max-w-sm max-h-min overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 hover:bg-color transition duration-300 ease-in-out hover:scale-105">
-    <Image className="object-cover object-center w-full h-56" width={150} height={150} src="/assets/images/placeholder.jpg" alt="avatar"/>
+    <div onClick={()=> window.open(link,'_blank')} className="w-full max-w-sm max-h-min overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 hover:shadow-slate-500 transition duration-300 ease-in-out hover:scale-105">
+    
+    {img == "intivent" && 
+    <Image className="object-cover object-center w-full h-56" width={600} height={600} quality={100} priority src="/assets/images/intivent.jpg" alt="image"/>
+    }
+    {img == "sau" && 
+    <Image className="object-cover object-center w-full h-56" width={500} height={500} quality={100} priority src="/assets/images/sau.png" alt="image"/>
+    }
+    {img == "kpj" && 
+    <Image className="object-cover object-center w-full h-56" width={800} height={500} quality={100} priority src="/assets/images/kpj.png" alt="image"/>
+    }
+    {img == "bank" && 
+    <Image className="object-cover object-center w-full h-56" width={500} height={500} quality={100} priority src="/assets/images/bank.png" alt="image"/>
+    }
+    {img == "sls" && 
+    <Image className="object-cover object-center w-full h-56" width={500} height={500} quality={100} priority src="/assets/images/sls.png" alt="image"/>
+    }
+    {/* <Image className="object-cover object-center w-full h-56" width={150} height={150} src="/assets/images/placeholder.jpg" alt="avatar"/> */}
 
     <div className="flex items-center px-6 py-3 bg-gray-900 ">
         {/* <svg aria-label="headphones icon" className="w-6 h-6 text-white fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -162,12 +179,22 @@ const ProjectsCard = ({title, desc, type, tech, link}) => {
             title='Java'
             />
         }
+        { tech.includes('sql') && 
+            <Image
+            priority
+            src={sql}
+            alt=''
+            width={50}
+            height={50}
+            title='sql'
+            />
+        }
     </div>
     <div className="px-6 py-4">
         {/* <h1 className="text-xl font-semibold text-gray-800 dark:text-white">{title}</h1> */}
 
         <p className="py-2 text-gray-700 dark:text-gray-400 text-justify">{desc}</p>
-        <Link href={link}>Learn More...</Link>
+        <Link className='text-blue-800 hover:underline' target="_blank" href={link}>Learn More...</Link>
 
         
         
