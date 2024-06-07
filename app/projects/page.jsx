@@ -27,7 +27,7 @@ export default function Projects() {
         img={'kpj'}
         type={'healthcare'}
         desc={'An android application for KPJ Hospital to view information on KPJ doctors, vaccines, and to book vaccination appointments. Improves communication and management between hospital and patients, as well as increases awareness on types of vaccinations and diseases. '}
-        tech={'android, java'}
+        tech={'android, java, sql'}
         link={'https://tinyurl.com/ymzmfczt'}
       />
       <ProjectsCard

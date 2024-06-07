@@ -26,9 +26,9 @@ const Nav = () => {
             setIsOpen(!isOpen);
         };
   return (
-    <nav className='relative bg-white shadow dark:bg-gray-800'>
+    <nav className=' text-xl relative bg-white shadow dark:bg-gray-800'>
         <div className='container px-6 py-4  mx-auto flex items-center justify-between'>
-        <div class="text-gray-700  text-lg"><a href="/" className="text-gray-700 hover:text-blue-500">Home</a></div>
+        <div class="text-gray-700  text-xl"><a href="/" className="text-gray-700 hover:text-blue-500">Home</a></div>
             <div className="hidden md:flex space-x-4">
                 <a href="/about" className="text-gray-700 hover:text-blue-500">About</a>
                 <a href="/resume" className="text-gray-700 hover:text-blue-500">Experience</a>

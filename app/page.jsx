@@ -10,8 +10,9 @@ export default function Home() {
       <div className="mt-8 lg:-mx-6 lg:flex lg:items-center gap-20">
         <Image
           src={'/assets/images/profile.jpg'}
-          width={400}
-          height={400}
+          width={300}
+          height={300}
+          quality={100}
           className="object-cover w-400 h-400 rounded-full"
         />
         <div className="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">

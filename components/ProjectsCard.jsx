@@ -15,6 +15,7 @@ import xampp from '../public/assets/icons/xampp.svg'
 import android from '../public/assets/icons/android.svg'
 import java from '../public/assets/icons/java.svg'
 import sql from '../public/assets/icons/sql.svg'
+import inventory from '../public/assets/icons/inventory.svg'
 
 const ProjectsCard = ({img,title, desc, type, tech, link}) => {
   return (
@@ -45,6 +46,15 @@ const ProjectsCard = ({img,title, desc, type, tech, link}) => {
             <Image
             priority
             src={healthcare}
+            alt=''
+            width={30}
+            height={30}
+        />
+        }
+        { type == 'inventory' &&
+            <Image
+            priority
+            src={inventory}
             alt=''
             width={30}
             height={30}
