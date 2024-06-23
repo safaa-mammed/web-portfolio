@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const ContactCard = () => {
   return (
@@ -12,8 +13,8 @@ const ContactCard = () => {
 
             {/* <p className="mt-3 text-gray-500 dark:text-gray-400">We’d love to hear from you. Please fill out this form or shoot us an email.</p> */}
         </div>
-
-        <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
+        <br></br><br></br>
+        <div className="text-center">
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
                 <div>
                     <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
@@ -23,8 +24,8 @@ const ContactCard = () => {
                     </span>
 
                     <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
-                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
-                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+                    {/* <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p> */}
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400"><Link target='_blank' href={'mailto: safaa.mammed@gmail.com'}>safaa.mammed@gmail.com</Link></p>
                 </div>
 
                 <div>
@@ -35,9 +36,9 @@ const ContactCard = () => {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Live chat</h2>
-                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
-                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">Start new chat</p>
+                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">LinkedIn</h2>
+                    {/* <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p> */}
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400"><Link target="_blank" href="https://www.linkedin.com/in/safaa-mammed/">Safaa Kunhi Mammed</Link></p>
                 </div>
 
                 <div>
@@ -48,9 +49,9 @@ const ContactCard = () => {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Office</h2>
-                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
-                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Location</h2>
+                    {/* <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Petaling Jaya, Selangor, Malaysia</p> */}
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">Petaling Jaya, Selangor, Malaysia</p>
                 </div>
 
                 <div>
@@ -61,12 +62,12 @@ const ContactCard = () => {
                     </span>
                     
                     <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Phone</h2>
-                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
-                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 10am to 6pm.</p>
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">(+60) 14 738 7260</p>
                 </div>
             </div>
 
-            <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+            {/* <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
                 <form>
                     <div className="-mx-2 md:items-center md:flex">
                         <div className="flex-1 px-2">
@@ -94,7 +95,7 @@ const ContactCard = () => {
                         Send message
                     </button>
                 </form>
-            </div>
+            </div> */}
         </div>
     </div>
 </section>
