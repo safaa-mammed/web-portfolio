@@ -16,29 +16,36 @@ const About = () => {
         description={'I was born and raised in Kuwait, but my background is Filipino/Indian. Experiencing many different cultures has made me who I am today, but most importantly I rely on my religion that aligns with my values and morals.'}
         side={'right'}
     />
-    
-
-    {/* <!-- left timeline --> */}
-    <AboutCard
-        title={'Interests & Hobbies'}
-        description={"As a homebody, I have always enjoyed a cosy movie night with friends & family. Recently, I have started to look into being more active which is why I began to enjoy athletic activities such as Archery, Karting, and Golfing. Being consistent in these sports have helped me physically and mentally as it instils discipline in me."}
-        side={'left'}
-    />
-    
-    {/* <!-- right timeline --> */}
-    <AboutCard
-        title={'How I got into Computer Science?'}
-        description={"I have to thank Dr. David J. Malan, the brilliant Harvard University Professor who taught me in the course CS50 and sparked my interest in development. This not only gave me an introduction to computer science, but taught me core concepts that have helped me throughout my university life. "}
-        side={'right'}
-    />
-
     {/* left timeline */}
     <AboutCard
-        title={'Goals & Aspirations'}
-        description={"My current goal is to accomplish becoming a successful full-stack developer, I would love being a part of a significant and impactful project. Apart from that, a long-term goal of mine to have a start-up with a unique idea or goal, and make that a successful business."}
+        title={'Education'}
+        description={"I currently hold a degree in Bachelor of Computer Science (Hons) majoring in Cloud Computing from INTI International University in collaboration with Coventry University UK, with a CGPA of 3.77"}
         side={'left'}
         // handleClick={'true'}
     />
+
+    {/* <!-- right timeline --> */}
+    <AboutCard
+        title={'Interests & Hobbies'}
+        description={"As a homebody, I have always enjoyed a cosy movie night with friends & family. Recently, I have started to look into being more active which is why I began to enjoy athletic activities such as Archery, Karting, and Golfing. Being consistent in these sports have helped me physically and mentally as it instils discipline in me."}
+        side={'right'}
+    />
+    
+    {/* <!-- left timeline --> */}
+    <AboutCard
+        title={'How I got into Computer Science?'}
+        description={"I have to thank Dr. David J. Malan, the brilliant Harvard University Professor who taught me in the course CS50 and sparked my interest in development. This not only gave me an introduction to computer science, but taught me core concepts that have helped me throughout my university life. "}
+        side={'left'}
+    />
+
+    {/* right timeline */}
+    <AboutCard
+        title={'Goals & Aspirations'}
+        description={"My current goal is to accomplish becoming a successful full-stack developer, I would love being a part of a significant and impactful project. Apart from that, a long-term goal of mine to have a start-up with a unique idea or goal, and make that a successful business."}
+        side={'right'}
+        // handleClick={'true'}
+    />
+    
 
     {/* <!-- right timeline --> */}
     {/* <AboutCard
