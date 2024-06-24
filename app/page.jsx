@@ -9,11 +9,11 @@ export default function Home() {
     <div className="container px-6 py-10 mx-auto pt-20">
       <div className="mt-8 lg:-mx-6 lg:flex lg:items-center gap-20">
         <Image
-          src={'/assets/images/profile.jpg'}
-          width={300}
-          height={300}
+          src={'/assets/images/profile.png'}
+          width={500}
+          height={500}
           quality={100}
-          className="object-cover w-400 h-400 rounded-full"
+          className="object-cover w-400 h-400 rounded-full border border-gray"
         />
         <div className="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
           <h1 className="block mt-4 text-3xl font-semibold text-gray-800 dark:text-white">Hello World, My name is Safaa!</h1>
