@@ -27,7 +27,7 @@ const Resume = () => {
                     <div className="ml-10">
                         <div className="font-bold">Software Developer</div>
                         <div className="italic md:mb-4">
-                          <Link  className='hover:underline hover:text-blue-600' href={'https://kumoteam.co/'} target="_blank">
+                          <Link  className='hover:underline hover:text-blue-600' href={'https://www.kasatria.com/'} target="_blank">
                             Kasatria Technologies Sdn Bhd
                           </Link>
                           </div>
