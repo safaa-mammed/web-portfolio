@@ -9,7 +9,7 @@ export default function Home() {
     <div className="container px-6 py-10 mx-auto pt-20">
       <div className="mt-8 lg:-mx-6 lg:flex lg:items-center gap-20">
         <Image
-          src={'/assets/images/profile.png'}
+          src={'/assets/images/profile.jpeg'}
           width={400}
           height={400}
           quality={100}
