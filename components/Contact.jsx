@@ -51,7 +51,7 @@ const ContactCard = () => {
                     
                     <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Location</h2>
                     {/* <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Petaling Jaya, Selangor, Malaysia</p> */}
-                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">Petaling Jaya, Selangor, Malaysia</p>
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">Based in Malaysia. WFH Philippines</p>
                 </div>
 
                 <div>
