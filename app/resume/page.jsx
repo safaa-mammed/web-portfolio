@@ -48,8 +48,6 @@ Dynamic Yield, Heap, AppsFlyer, etc.</li>
                         </div>
                     </div>
                 </div>  
-      <div className="container bg-white mx-auto flex h-screen">
-           <div className="relative mt-5 text-left">
                 
                 <div className="flex items-center relative">
                     <div className="hidden md:block w-20">
