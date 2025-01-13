@@ -88,7 +88,7 @@ Dynamic Yield, Heap, AppsFlyer, etc.</li>
 
 
 
-                /*
+{/*                 
                 <div className="flex items-center relative">
                     <div className="hidden md:block w-20">
                         <div className="font-bold italic">2022</div>
@@ -159,7 +159,7 @@ Dynamic Yield, Heap, AppsFlyer, etc.</li>
                           </ul>
                         </div>
                       </div>
-                </div>*/
+                </div> */}
 
 
             </div>
