@@ -7,7 +7,48 @@ const Resume = () => {
     <div><h1 className='block mt-4 text-3xl font-semibold text-gray-800 dark:text-white text-center'>Experience</h1>
     <div className='flex mt-6 text-center justify-center items-center'><button className='px-6 py-2  font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-color1 rounded-lg hover:bg-color2 focus:outline-none focus:ring focus:ring-opacity-80'><a href='/assets/file/Safaa_Kunhi_Mammed_Resume.pdf' download >Download Resume</a></button></div>
            
-        <div className="container bg-white mx-auto flex h-screen">
+      <div className="container bg-white mx-auto flex h-screen">
+           <div className="relative mt-5 text-left">
+                
+                <div className="flex items-center relative">
+                    <div className="hidden md:block w-20">
+                        <div className="font-bold italic">2024</div>
+                        <div className="md:flex space-x-1 text-xs">
+                            <div>Jul</div>
+                            <div>-</div>
+                            <div>Present</div>
+                        </div>                        
+                    </div>
+                    
+                    <div className="border-r-2 border-black absolute h-full left-1 md:left-20 top-2 z-10">
+                        <i className="fas fa-circle -top-1 -ml-2 absolute"></i>
+                    </div>
+
+                    <div className="ml-10">
+                        <div className="font-bold">Software Developer</div>
+                        <div className="italic md:mb-4">
+                          <Link  className='hover:underline hover:text-blue-600' href={'https://kumoteam.co/'} target="_blank">
+                            Kasatria Technologies Sdn Bhd
+                          </Link>
+                          </div>
+                        <div className="mb-4 mt-2 md:hidden">
+                            <div className="font-bold">2024</div>
+                            <div className="text-xs">Jan - Present</div>
+                        </div>
+                        <div className="mb-10">
+                          <ul className='list-disc mx-5'>
+                            <li>Provide in-depth data discrepancy and behavioral analysis on GA4 data using BigQuery</li>
+                            <li>Generate Analytical Reports for leading industry clients</li>
+                            <li>Audit and enhance dashboards to elevate business decision-making</li>
+                            <li>Automate internal tasks to accelerate and improve productivity</li>
+                            <li>Enhance client experience by developing pipeline solutions to mitigate GA4 limitations</li>
+                            <li>Integrate and implement analytics, attribution, personalization using various platforms- A/B Tasty, Segment,
+Dynamic Yield, Heap, AppsFlyer, etc.</li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>  
+      <div className="container bg-white mx-auto flex h-screen">
            <div className="relative mt-5 text-left">
                 
                 <div className="flex items-center relative">
@@ -47,7 +88,7 @@ const Resume = () => {
 
 
 
-                
+                /*
                 <div className="flex items-center relative">
                     <div className="hidden md:block w-20">
                         <div className="font-bold italic">2022</div>
@@ -118,7 +159,7 @@ const Resume = () => {
                           </ul>
                         </div>
                       </div>
-                </div>
+                </div>*/
 
 
             </div>
