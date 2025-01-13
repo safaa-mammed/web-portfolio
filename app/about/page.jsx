@@ -13,13 +13,13 @@ const About = () => {
     {/* <!-- right timeline --> */}
       <AboutCard
         title={'Background'}
-        description={'I was born and raised in Kuwait, but my background is Filipino/Indian. Experiencing many different cultures has made me who I am today, but most importantly I rely on my religion that aligns with my values and morals.'}
+        description={'I was born and raised in Kuwait, but my background is Filipino/Indian. After studying and completing my internship in Malaysia, I decided to pursue my career and be based in Malaysia as it was a location with growing technological demand and innovations.'}
         side={'right'}
     />
     {/* left timeline */}
     <AboutCard
         title={'Education'}
-        description={"I currently hold a degree in Bachelor of Computer Science (Hons) majoring in Cloud Computing from INTI International University in collaboration with Coventry University UK, with a CGPA of 3.77"}
+        description={"I currently hold a degree in Bachelor of Computer Science (Hons) majoring in Cloud Computing from Coventry University (UK), in collaboration with INTI International University, with a CGPA of 3.77. One of my achievements is earning the Best Student award during the convocation ceremony along with a industry prize from Duopharma Sdn Bhd in recognition of this."}
         side={'left'}
         // handleClick={'true'}
     />
